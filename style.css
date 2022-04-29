@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --pale-blue: hsl(207, 100%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-cyan);
+}
+
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 3rem;
+    align-items: center;
+}
+
+.button-try{
+    background-color: white;
+    border: 1px solid var(--pink);
+    color: var(--pink);
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+}
+
+/* build */
+
+.container-build{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.text-build{
+    width: 500px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.button-free{
+    background-color: var(--pink);
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    box-shadow: 2px 2px 8px var(--dark-cyan);
+    margin-bottom: 3rem;
+}
+
+.button-free:hover{
+    background-color: white;
+    color: var(--light-pink);
+}
+
+.img-build{
+    margin: 0 auto;
+}
+
+.container-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.box-2{
+    padding-left: 15rem;
+}
+
+.number-box{
+    font-size: 60px;
+}
+
+.text-box{
+    color:grey;
+}
+
+/* body */
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-grow, .container-users{
+    flex-direction: row-reverse;
+    text-align: left;
+    background-color: var(--pale-blue);
+}
+
+
+.img-body{
+    width: 30vw;
+    height: auto;
+}
+
+.text-body{
+    width: 500px;
+}
+
+.body-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+.title-body, .button-bottom{
+    margin-bottom: 2rem;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--dark-cyan);
+    padding: 3rem 5rem;
+    color: var(--pale-blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.footer-text{
+    font-size: 10px;
+    line-height: 2;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+/* footer left */
+.footer-left{
+    width: 300px;
+}
+
+a {
+    color: var(--pale-blue);
+    font-size: 12px;
+}
+
+.contact{
+    margin-bottom: 1rem;
+}
+
+.logo-footer{
+    margin-bottom: 1rem;
+}
+.social-media{
+    margin-top: 2rem;
+}
+.logo-social{
+    width: 30px;
+    padding-right: 1rem;
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+/*footer right*/
+.footer-right{
+    width: 500px;
+}
+
+.footer-subtitle{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.footer-text-right{
+    width: 250px;
+}
+
+#mail-subscribe{
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+}
+
+.button-subscribe{
+    background-color: var(--pink);
+    color: var(--pale-blue);
+    border: none;
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.img-bg-footer, .img-bg-top{
+    margin-bottom: -5px;
+}
+
+.img-bg-bottom {
+    margin-top: -50px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+.attribution a {
+    color: var(--pale-blue);
+    transition: 0.5s;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.attribution a:hover{
+    color: var(--pink);
+    font-size: 14px;
+}
+
+
+
